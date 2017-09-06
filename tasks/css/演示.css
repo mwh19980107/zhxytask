@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.modes p{
+	width: 100px;
+	height: 100px;
+	background: #29B078;
+    margin-top: 20px;
+	margin-left: 20px;
+	border-radius: 5px;
+}
+.modes{
+		float: left;
+}
+.wrap{
+	width: 360px;
+	margin: auto;
+	
+	
+}

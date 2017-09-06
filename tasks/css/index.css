@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrap {
+	height: 70px;
+	background: #29bde0;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.header{
+	background:#f0f0f0 ;
+	padding-top: 30px;
+}
+.thear{
+	background: #FFFFFF;
+	
+	height: 150px;
+	font-size: 34px;
+	color: #9a9a9a;
+	border: 1px solid #dddddd;
+}
+.thear p{
+	text-align: center;
+	margin-top: 55px;
+}
+.thear img{
+	float: right;
+	
+}
+.give{
+	background: #FFFFFF;
+	
+	font-size: 34px;
+	color: #fbb435;
+	text-align: center;
+	padding-top: 45px;
+	margin-top: 30px;
+	border-top: 1px solid #dddddd;
+	border-bottom: 1px solid #fbb435;
+}
+.simplify{
+	background:  #FFFFFF;
+}
+.simplify #sim,
+.simplify #san,
+.simplify #sth{
+	background: #69d1e9;
+	color:  #FFFFFF;
+	border: none;
+	outline: none;
+	text-align: center;
+	/*padding-left: 35%;
+	padding-right: 35%;*/
+	width: 80%;
+	margin-top: 20px;
+	font-size: 32.1px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.simplify #arous{
+position: absolute;
+right: 2%;
+top: 40px;
+cursor: pointer;
+}
+.simplify #arou{
+position: absolute;
+left: 2%;
+top: 40px;
+cursor: pointer;
+}
+.simplify p{
+	font-size: 24px;
+	color:  #787878;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.footer{
+	width: 50px;
+	margin: auto;
+	
+}
+.footer p{
+	border-radius: 20px;
+	width: 20px;
+	height: 20px;
+	font-size: 15px;
+	background:  #f0f0f0;
+
+}
+#porper{
+	background: #FBB435;
+	color: #FFFFFF;
+	margin-right: 5px;
+}

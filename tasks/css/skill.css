@@ -1,0 +1,210 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.hand{
+	height: 40px;
+	background:  #FFFFFF;
+	color: #29b078;
+	font-size: 14px;
+	margin: auto;
+	padding-top: 10px;
+}
+.hand img{
+	padding-left: 20px;
+}
+.texp{
+	background:  #29b078;
+	color:  #FFFFFF;
+	padding-top: 10px;
+}
+.rookie .noob:hover{
+	border-radius: 0;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #ffffff;
+	cursor: pointer;
+}
+.aund{
+	background: #29b078;
+}
+.monday span{
+	font-size: 35px;
+}
+.monday p{
+	font-size: 8px;
+}
+.tuesday span{
+	font-size: 16px;
+	padding-left: 20px;
+}
+.straig{
+	margin-top: 50px;
+}
+.pereon{
+	margin-left: 30px;
+	margin-top: 97px;
+}
+.tuesday{
+	padding-top: 22px;
+}
+.bodt{
+	background:  #f3a747;
+}
+.wedn{
+	color:  #FFFFFF;
+}
+.pereon{
+	font-size: 61px;
+}
+.straig p{
+	font-size: 44px;
+}
+.straig span{
+	font-size: 19px;
+}
+.hidn{
+	background:  #fafafa;
+	padding-bottom: 150px;
+}
+.than{
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.than  span{
+	color:  #74c5a0;
+}
+.cutey,
+.cuteya{
+	background:  #FFFFFF;
+	margin-right: 30px;
+	border: 1px solid #eeeded;
+	border-radius: 5px;
+}
+.cutey p{
+	padding-left: 40px;
+}
+.cutey input{
+	/*border: 1px solid #f9a372;
+	
+	background:  #f9a372;
+	width: 15px;
+	height: 15px;*/
+}
+.stanty{
+	color: #29b078;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.stanty p{
+	background-image: url(../img/oval2.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.stanty p:hover{
+ cursor: pointer;
+	background-image: url(../img/oval1.png);
+}
+
+.introd {
+	padding-top: 20px;
+}
+.cuteya p{
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-bottom: 20px;
+	line-height: 30px;
+	text-indent: 25px;
+	color: #999999;	
+}
+.model{
+	padding-right: 40px;	
+}
+.model{
+	border-bottom: 1px solid #f3f3f3;
+}
+.business{
+	border-bottom: 1px solid #f7f7f7;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 70px;
+}
+.cent{
+	color:  #ffc5b0;
+}
+.finall{
+	background:  #26a26f;
+	color: #FFFFFF;
+	padding-top: 30px;
+}
+.colom{
+	background: #29b078;
+	width: 100%;
+}
+.anysa{
+	margin-left: 80px;
+}
+.anysa span{
+	border-right: 1px solid #FFFFFF;
+	padding-right: 10px;
+/*	padding-left: 10px;*/
+}
+.anysb{
+	margin-left: 145px;
+}
+.anysb span{
+	margin-right: 30px;
+}
+.anysb span:hover{
+	border-bottom: 1px solid #ffffff;
+}
+.anysc{
+	margin-right: 75px;
+}
+.stand p{
+	border-top: 1px solid #32c086;
+	margin-top: 15px;
+	padding-top: 5px;
+	color:  #FFFFFF;
+}
+.copyr{
+		background:  #26a26f;
+}
+.wedn img{
+	width: 50%;
+}
+@media (max-width: px) {
+	
+	.stanty{
+		
+	}
+}
+@media  (max-width: 992px) {
+	.cutey{
+		width: 100%;
+		text-align: center;
+		
+}
+.stanty p{
+	background-image: url(../img/oval2.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding-left: 100px;
+	}
+	.anysa{
+		margin-left: 0;
+	}
+	.anysc{
+		margin-right: 0;
+	}
+	.cutey{
+		/*width: 720px;*/
+		margin-bottom: 20px;
+	}
+	.straig{
+		position: relative;
+		top: 0px;
+	}
+}
+@media (max-width:992px ) {
+	
+}

@@ -1,0 +1,204 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.give:after{
+	/*margin-left: 550px;*/
+	/*overflow: hidden;*/
+	clear: both;/*content: "." ;display: block;width: 0;height: 0;visibility: hidden;*/
+}
+.body{
+	
+}
+.nutr{
+	margin: 0 auto;
+	width: 1200px;
+	
+}
+.give{
+	margin-left: 560px;
+	width: 700px;
+	
+	}
+.give li{
+	float: left;
+    margin-right: 30px;
+margin-left: 60px;
+
+}
+.give .T{
+	color: #ff7f02;
+}
+.pail{
+	border: 2px solid #1d7ad9;
+	width: 2px;
+    height: 3px;
+    border-radius: 12px;
+    margin-left: 100px;
+}
+.carton{
+	font-size: 22px;
+}
+.cliff{
+	border: 1px solid #f3f3f3;
+	width: 1100px;
+	height: 500px;
+	background: #f3f3f3;
+	margin-top:10px;
+	margin-left: 100px;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	/*padding-left: 10px;*/
+}
+.cliff img{
+	padding-left: 10px;
+}
+.mold{
+	margin-left: 10px;
+	color: #1d7ad9;
+	
+}
+.ensure{
+	border: 1px solid #e8e8e8;
+	/*width: 100%;*/
+	height: 70px;
+	background: #Fbfcff;
+margin-top: 5px;
+padding-top: 35px;
+}
+
+.exter{
+	float: left;
+}
+.exter{
+	/*margin-top: 25px;*/
+	margin-left: 38px;
+	/*margin-right: 50px;*/
+}
+.exter .cafe{
+	border: 1px solid #BAB5B0;
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+	margin-left: 50px;
+	margin-top: 5px;
+}
+.mex,
+.mea,
+.meb{
+	border: 1px solid #BAB5B0;
+	width: 135px;
+	height: 37px;
+	float: right;
+	background: #FFFFFF;
+	margin-right: 20px;
+/*margin-top: -10px;*/
+}
+.mea{
+	margin-top: -50px;
+}
+.meb{
+	margin-top: -10px;
+}
+
+.mex img{
+	margin-left: 32px;
+	margin-top: 4px;
+}
+.check{
+	margin-left: 10px;
+	position: relative;
+}
+.check p{
+	padding-top: 7px;
+	margin-left: 8px;
+}
+.check img{
+	position: absolute;
+	top: 1px;
+	bottom: 1px;
+	left: 55px;
+}
+.clcc{
+	margin-top: 5px;
+}
+.ensure-1{
+	border: 1px solid #e8e8e8;
+	/*width: 100%;*/
+	height: 120px;
+	background: #Fbfcff;
+    margin-top: 5px;
+    padding-top: 40px;
+    padding-left: 40px;
+   /* position: relative;*/
+}
+.diam{
+	border: 1px solid #e8e8e8;
+	width: 60px;
+	height: 25px;
+}
+.edit{
+	margin-top: 40px;
+}
+.cmm input{
+	height: 20px;
+	width: 50px;
+	background: #FBFCFF;
+}
+.cmm input{
+	border: none;
+	border: 1px solid #E6E6E6;
+}
+.height,
+.width,
+.cag{
+	margin-left: 40px;
+}
+.exter .jssp{
+	border: 1px solid #BAB5B0;
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+	margin-left: 14px;
+	margin-top: 5px;
+}
+.mea img{
+	margin-left: 32px;
+	margin-top: 4px;
+}
+
+
+.ensure-2{
+	border: 1px solid #e8e8e8;
+	height: 100px;
+	background: #Fbfcff;
+    margin-top: 5px;
+   /* padding-top: 20px;*/
+   
+    }
+.meb img{
+	margin-left: 32px;
+	margin-top: 4px;
+}
+.submit{
+	padding: 8px 50px;
+	background-color:#e15053;
+	border: none;
+	color: #FFFFFF;
+	border-radius: 4px;
+	    margin-left: 450px;	
+	    margin-top: 80px;
+}
+.butt{
+	border: 1px solid #e8e8e8;
+	height: 200px;
+	background: #FFFFFF;
+	
+}
+.cmm{
+	margin-left: 60px;
+margin-top: -20px;
+}
+.exter-1{
+	padding-bottom: 20px;
+}

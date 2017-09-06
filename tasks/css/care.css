@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	background: #5fc0cd;
+	height: 80px;
+}
+.hirer{
+	text-align: center;
+}
+.hirer input{
+	height: 70px;
+	width: 230px;
+	font-size: 34px;
+	border-radius: 6px;
+}
+.hirer .ttne{
+	background: #55a8b3;
+	color:  #ffffff;
+	border: none;
+}
+.hirer .ttne2{
+	background: #ffffff;
+	color: #86cdd7;
+	border: none;
+	margin-left: -10px;
+}
+.hirer img{
+	float: right;
+	padding-top: 10px;
+	padding-right: 50px;
+}
+.active select{
+	width: 100%;
+	height: 80px;
+	font-size: 24px;
+	border: none;
+	padding-left: 135px;
+
+}
+.active div{
+	border-bottom: 1px solid #f0f2f3;
+	border-right: 1px solid #f0f2f3;
+	padding-left: 0;
+	padding-right: 0;
+}
+.link{
+	padding-top: 20px;
+}
+.master,
+.mastera{
+	font-size: 28px;
+	padding-left: 20px;
+}
+.master span,
+.mastera span{
+	color:  #b1b1b1;
+	margin-left: 10px;
+}
+.active option{
+	width: 100%;
+}
+.der{
+	padding-left: 48px!important;
+	padding-top: 10px;
+}
+.master p{
+	color: #e63b0e;
+	padding-top: 10px;
+	margin-right: 10px;
+}
+.ant img{
+	margin-left: 10px;
+}
+.mastera{
+	border-bottom: 1px solid #f0f2f3;
+	padding-bottom: 30px;
+}
+.write{
+	font-size: 20px;
+	border-top: 1px solid #f0f2f3;
+	height: 100px;
+	width: 100%;
+	background: #f8fafb;
+	padding-top: 5px;
+	position:fixed;
+            bottom:0;
+           
+}
+.care p{
+color:  #5fc0cd;
+margin-top: 10px;	
+
+}
+.uren p{
+	color: #c6c7c7;
+	margin-top: 10px;	
+	
+}

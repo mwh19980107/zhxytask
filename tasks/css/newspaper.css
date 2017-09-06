@@ -1,0 +1,403 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,
+/*body{
+	font-family: "Arial";
+}*/
+.journal{
+	width: 1280px;
+	margin-left: 38px;
+	margin: 0 auto;
+	position: relative;
+	
+}
+.justn{
+	width: 1280px;
+	overflow: hidden;
+}
+.repoet{
+	width: 109px;
+	height: 62px;
+	background: #d45d5c;
+	float: left;
+}
+.repoet p {
+	color: #FFFFFF;
+	font-size: 12px;
+	padding-top: 45px;
+	padding-left: 5px;
+}
+.rapp  {
+	color: #d45d5c;
+	float: right;
+	margin-top: 40px;
+}
+.bloom{
+	overflow: hidden;
+}
+.com{
+	border: 1px solid #938e8c;
+	
+}
+.green{
+	margin-top: 40px;
+	overflow: hidden;
+}
+.bice{
+	border: 1px solid #cc8091;
+	width: 310px;
+	margin-bottom: 10px;
+}
+.green img{
+	float: left;
+/*	opacity: 0.4;*/
+	position: relative;
+}
+
+
+.hover {
+	border: 1px solid #418C59;
+	width: 281px;
+	height: 332px;
+	background: #418C59;
+	position: absolute;
+	opacity: 0.5;
+}
+
+.opac{
+	border: 1px solid #a46767;
+	width: 281px;
+	height: 332px;
+	background: #a46767;
+	position: absolute;
+	left: 637px;
+	opacity: 0.5;
+}
+.biceen{
+	float: right;
+}
+.green p{
+	/*text-transform: capitalize;*/
+	font-size: 12px;
+	color: #8d8d8d;
+	line-height: 10px;
+	word-spacing: 5px;
+	margin-top: 5px;
+	
+}
+.about u {
+	font-variant: small-caps;
+	font-size: 24px;
+}
+.qibl{
+	/*font:  "arial narrow";*/
+	font-size: 120px;
+	color: #75b86b;
+	margin-top: 20px;
+	
+}
+.aril-1{
+	font-size: 55px;
+	color:  #CC8091;
+}
+.aril-2{
+	font-size: 21px;
+	color:  #CC8091;
+	position: absolute;
+	top: 395px;
+}
+.aril-3{
+	color: #a2a3a3;
+}
+
+.fore-1{
+	width: 325px;
+}
+.fore-1 span{
+	font-size: 19px;
+	color: #418c59;
+}
+.fore-1 p {
+	color: #767777;
+	font-size: 14px;
+}
+.fore-2{
+	width: 275px;
+}
+.fore-2 span{
+	font-size: 19px;
+	color: #d2994f;
+}
+.fore-2 p {
+	color: #767777;
+	font-size: 14px;
+}
+.fore-3{
+	width: 325px;
+}
+.fore-3 u{
+	font-size: 19px;
+	color: #cc7680;
+}
+.fore-3 p {
+	color: #767777;
+	font-size: 14px;
+}
+.fore{
+	overflow: hidden;
+}
+.fore-1,
+.fore-2,
+.fore-3{
+	float: left;
+	margin-right: 40px;
+	margin-top: 25px;
+}
+.fore p {
+	margin-top: 5px;
+	letter-spacing: 1px;
+}
+.fore-4 span{
+	font-size: 12px;
+	color: #df9897;
+}
+.fore-4 {
+	margin-top: 20px;
+}
+.tech{
+	margin-top: 70px;
+	position: relative;
+}
+.fron{
+	font-size: 72px;
+	color: #f5e327;
+	font-family: simhei;
+	font-weight: 500;
+}
+.tech p{
+	font-size: 42px;
+	color: #11456b;
+	font-family: simhei;
+	font-weight: 600;
+}
+.fat{
+	font-size: 42px;
+	color: #11456b;
+	font-family: simhei;
+	font-weight: 600;
+	margin-left: 20px;
+}
+.loge{
+	font-size: 33px;
+	color: #11456b;
+	font-family: simhei;
+	font-weight: 600;
+}
+.rets{
+	border: 1px solid #11456b;
+	width: 600px;
+	margin-top: 20px;
+}
+.leading{
+	font-size: 70px;
+	color: #f5e327;
+	margin-top: 20px;
+	/*float: left;*/
+	
+}
+.simhei{
+	width:618px ;
+	overflow: hidden;
+	padding-top: 20px;
+	position: relative;
+}
+.lead{
+	width: 530px;
+	float: right;
+	font-size: 12px;
+	color: #b5b5b5;
+	margin-top: 10px;
+	letter-spacing: 1px;
+}
+.simhei p{
+	
+	width: 419px;
+	/*float: right;*/
+	font-size: 12px;
+	color: #b5b5b5;
+	/*margin-top: 10px;*/
+	text-indent: 25px;
+	letter-spacing: 1px;
+}
+.juch{
+	width: 417px;
+	/*float: right;*/
+	font-size: 12px;
+	color: #b5b5b5;
+	letter-spacing: 1px;
+}
+.xling{
+	font-size: 12px;
+	color: #b5b5b5;
+	text-indent: 25px;
+	letter-spacing: 1px;
+}
+.simhei img{
+	position: absolute;
+	top: 130px;
+	left:440px;
+}
+.right{
+	border: 1px solid #72ba61;
+	background:#72ba61 ;
+	height: 35px;
+	width: 1px;
+	position: absolute;
+	top: 227px;
+	left: 45px;
+}
+.teni{
+	font-size: 26px;
+	color: #FFFFFF;
+	position: absolute;
+	left: 60px;
+	top: 226px;
+}
+.just {
+	/*position: relative;*/
+	position: absolute;
+	top: 740px;
+	left: 663px;
+	
+}
+.just img{
+	width: 610px;
+	height: 279px;
+	/*position: absolute;
+	left: 700px;*/
+	position: relative;
+}
+.trron{
+	font-size: 15px;
+	color: #72ba61;
+	position: absolute;
+	top: 240px;
+	left: 180px;
+	font-style: oblique;
+}
+.jzyc{
+	position: relative;
+}
+.justn{
+	float: right;
+}
+.ctlz{
+	width: 610px;
+	height: 318px;
+	background: #eeedd6;
+	position: absolute;
+	top: 1055px;
+	/*left: 1415px;*/
+	left: 663px;
+	
+}
+.jzyc{
+	width: 1280px;
+}
+.ctlz img{
+	margin-top: 40px;
+	margin-left: 30px;
+	position: relative;
+}
+.ctlz p{
+	letter-spacing: 1px;
+	margin-left: 50px;
+
+}
+.p1{
+	position: absolute;
+top: 32px;
+}
+.p2{
+	position: absolute;
+top: 72px;
+}
+.p3{
+	position: absolute;
+top: 111px;
+}
+.ctll{
+	width: 310px;
+	height: 160px;
+	background: #d45d5c;
+	margin-top: 25px;
+	position: relative;
+}
+.spacing{
+	font-size: 110px;
+	color:  #FFFFFF;
+	position: absolute;
+top: 9px;
+left: 10px;
+}
+.junk{
+	font-size: 21px;
+	color: #FFFFFF;
+	position: absolute;
+	left: 95px;
+	top: 44px;
+}
+
+.on{
+	border: 1px solid #FFFFFF;
+	height: 85px;
+	/*width: 1px;*/
+	background: #FFFFFF;
+	margin-left: 77px;
+	position: absolute;
+	top: 40px;
+}
+.tryst{
+	font-size: 12px;
+	color: #FFFFFF;
+	position: absolute;
+	left: 95px;
+	top: 97px;
+}
+.date{
+position: absolute;
+	left: 340px;
+	top: 175px;
+text-indent: 50px;
+letter-spacing: 2px;
+}
+.rendez img{
+	position: absolute;
+	left: 313px;
+	top: 126px;
+}
+.rendez-1 img{
+	position: absolute;
+	left: 502px;
+	top: 244px;
+}
+.divorce{
+	
+	/*border-top: 1px solid #938e8c;*/
+	/*margin-top: 40px;*/
+}
+.jip{
+	margin-top: 40px;
+	border-top: 1px solid #938e8c;
+		color: #d45d5c;
+		/*margin-left: 1167px;*/
+		/*margin-top: 2px;*/
+		padding-top: 2px;
+		text-align: right;
+		margin-bottom: 40px;
+}
+.junk{
+	font-style: oblique;
+}

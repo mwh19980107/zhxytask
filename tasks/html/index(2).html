@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>玩家配比</title>
+		<link rel="stylesheet" type="text/css" href="../css/index(3).css"/>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+		
+	</head>
+	<body>
+		<div class="wrap">
+			<a href="index.html"><img src="../img/left.png"/></a>
+		</div>
+		<div class="header">
+			<div class="actia">
+				<p>玩家配比</p>
+			</div>
+			<div class="actac">
+				<p  class="col-xs-6" ><img src="../img/werewolf-spirit.png" width="70px"height="70px"/>幽灵<span id="killer"></span>人</p>
+				<p  class="col-xs-6" ><img src="../img/werewolf-people.png" width="70px"height="70px"/>水民<span  id="populace"></span>人</p>
+				
+			</div>
+			<div class="mizut">
+				<p>水民词组：<input type="text" id="tube" maxlength="10" value placeholder="限输入10个人字内" /></p>
+				<p>水民词组：<input type="text" id="tubea" maxlength="10" value placeholder="限输入10个人字内" /></p>
+			</div>
+			<div class="quantity">
+				<p><b>请输入玩家数量</b> <input type="text" id="qua"  onclick="set()"  /><span>玩家数量为4~18</span></p>
+			</div>
+			<div class="footer">
+				<input type="button" name="" id="foo" value="去发牌"  />
+			</div>
+		</div>
+		<script src="../js/index.js" charset="utf-8"></script>
+	</body>
+</html>

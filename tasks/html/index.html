@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>简化版</title>
+		<link rel="stylesheet" type="text/css" href="../css/index.css" />
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+	</head>
+
+	<body>
+		<div class="wrap">
+			<img src="../img/sangan.png" />
+		</div>
+		<div class="header">
+			<div class="container thear">
+				<p>上次游戏：捉鬼猜词版<img src="../img/Back-_-Icon.png" /></p>
+			</div>
+			<div class="container give">
+				<p id="tbus">捉鬼游戏</p>
+			</div>
+			<div class="container simplify text-center">
+				<input type="button" id="sim" value="简化版" onclick="ace()" />
+				<p>有1133个用户正在玩此款游戏</p>
+				<div style="position: relative;">
+					<img id="arou" src="../img/leftzz.png" />
+
+					<input type="button" id="san" onclick="location.href='http://127.0.0.1:8020/struggle/html/index(2).html?__hbt=1504689144305'" value="猜词版" />
+					<img id="arous" src="../img/youjiao1.png" />
+					<p>有1133个用户正在玩此款游戏</p>
+				</div>
+				<input type="button" id="sth" value="杀人版" onclick="location.href='http://127.0.0.1:8020/struggle/html/index(2).html?__hbt=1504689144305'" />
+				<p>有1133个用户正在玩此款游戏</p>
+				<div class="footer ">
+					<p class="pull-left" id="porper">1</p>
+					<p class="pull-left" id="world">2</p>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			function ace() {
+				window.location.href = "http://127.0.0.1:8020/struggle/html/%E7%8E%A9%E5%AE%B6%E9%85%8D%E6%AF%94.html?__hbt=1504351723283";
+			}
+			var world2 = document.getElementById("world");
+			var porper1 = document.getElementById("porper");
+			var arou2 = document.getElementById("arou");
+			var arous1 = document.getElementById("arous");
+			var tbuse = document.getElementById("tbus");
+			var flag=false;
+			arous1.onclick = function() {
+				switchItem()
+			}
+			arou2.onclick = function() {
+				switchItem()
+			}
+			
+			function switchItem(){
+				flag=!flag;
+				if (flag) {
+					porper1.style.background = "#f0f0f0";
+					porper1.style.color = "#787878"
+					world2.style.background = "#FBB435";
+					world2.style.color = "#fff"
+					tbuse.innerHTML = "杀人游戏";
+					document.getElementById("san").value = "警版";
+					document.getElementById("sth").value = "3.0版";
+				} else{
+					porper1.style.background = "#fbb435";
+					porper1.style.color = "#fff"
+					world2.style.background = "#F0f0f0";
+					world2.style.color = "#787878"
+					tbuse.innerHTML = "捉鬼游戏";
+					document.getElementById("san").value = "猜词版";
+					document.getElementById("sth").value = "白痴版";
+				}
+			}
+		</script>
+	</body>
+
+</html>

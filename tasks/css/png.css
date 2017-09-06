@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.fut{
+		border: 1px solid #888888;
+		height: 500px;
+		
+		background:#eeeeee;
+		padding-top: 20px;
+}
+.bor{
+	border: 1px solid #888888;
+	background: #FFFFFF;
+	width: 220px;
+	height: 150px;
+	/*margin-left: 20px;*/
+	/*float: left;*/
+	padding-top: 20px;
+	position: relative;left: 20px;
+}
+.logo,
+.log{
+	border: 1px solid #888888;
+	background: #dfdfdf;
+	width: 100px;
+	height: 80px;
+	text-align: center;
+	padding-top: 20px;
+	margin-left: 20px;
+
+}
+.log{
+	margin-top: 15px;
+}
+.mic{
+	
+	float: left;
+	margin-left: 140px;
+}
+.kuwe{
+	border: 1px solid #888888;
+	background: #FFFFFF;
+	height: 420px;
+	margin-left: 260px;
+	margin-right:180px ;
+	position: absolute;top: 20px;
+}
+.bigg{
+	border: 1px solid #888888;
+	background: #FFFFFF;
+	height: 480px;
+	width: 140px;
+	/*float: right;*/
+	/*margin-right: 20px;*/
+	position: absolute;right: 20px;
+	position: absolute;top: 20px;
+}
+.kuwe p{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+}
+.p{
+	
+}

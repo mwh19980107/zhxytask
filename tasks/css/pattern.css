@@ -1,0 +1,234 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #DEDEDE;
+}
+.good{
+	background: #333333 ;
+}
+.good-inner{
+	width: 1300px;
+	margin: 0 auto;
+}
+.good a{
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-right: 25px;
+	
+}
+.good ul{
+	float:right;
+	padding-top: 13px;
+}
+.good li{
+	float: left;
+}
+.stru{
+	width: 1270px;
+	padding-right: 27px;
+	margin-left: auto;
+	margin-right: auto;
+	/*background: #FFFFFF;*/    
+	background: #DEDEDE;
+	padding-top: 30px;
+	overflow: hidden;
+	/*float: left;*/
+
+}
+.ggle img{
+	width: 180px;
+	height: 180px;
+}
+.ggle{
+	border: 1px solid #DEDEDE;
+	background: #FFFFFF;
+	width: 730px;
+	/*margin-left: 30px;*/
+	padding-left: 20px;
+	padding-top: 30px;
+	padding-right: 30px;
+	margin-bottom: 30px;
+}	
+.ggle p{
+	text-indent: 2em;
+	line-height: 140%;
+	font-size: 15px;
+}
+h4,
+h6 {
+	color: #848280;
+	padding-top: 20px;
+	
+}
+h6{
+	padding-bottom: 20px;
+}
+.ggle ul{
+	list-style-type: none;
+	text-indent: 2em;
+	padding-bottom: 30px;
+}
+.bette{
+	border: 1px solid #DEDEDE;
+	background: #FFFFFF;
+	width: 760px;
+	height: 780px;
+	/*margin-left: 30px;*/
+	padding-top: 40px;
+	padding-left: 20px;
+}
+.bette img{
+	width:110px ;
+	height: 100px;
+	padding-left: 5px;
+	padding-top: 15px;
+
+	
+}
+.ful{
+	border: 1px solid #DEDEDE;
+	background: #FFFFFF;
+	width: 130px;
+	height: 150px;
+	padding-left: 15px;
+	padding-right: 10px;
+}
+
+.ful span{
+	padding-left: 20px;
+}
+.wrap{
+	margin-left: 15px;
+	float: left;
+}
+.ful{
+	float: right;
+	float: left;
+	margin-right: 50px;
+	margin-top: 30px;
+}
+.ful span{
+	display: block;
+	margin-top: 10px;
+}
+.rum{
+	border: 1px solid #DEDEDE;
+	background: #FFFFFF;
+	width: 760px;
+	height: 425px;
+	/*margin-left: 30px;*/
+	padding-left: 20px;
+	margin-top: 20px;
+	padding-top: 30px;
+	margin-bottom: 20px;
+}
+ol {
+	padding: 30px;
+}
+table{
+	border-collapse: collapse;
+	width: 97%;
+}
+table,
+td,
+th{
+	border: 1px solid #CCCCCC;
+	
+}
+tr th{
+	background: black;
+	color: #FFFFFF;
+	text-align: left;
+}
+.tur{
+	background: #CCCCCC;
+}
+.weak{
+	border: 1px solid#DEDEDE;
+	width: 450px;
+	height: 600px;
+	background: #FFFFFF;
+	margin-left: 20px;
+}
+.ku p{
+	border-left:3px solid #CCCCCC ; 
+	padding-left: 15px;
+}
+.ku{
+	padding-left: 20px;
+	padding-top:30px;
+	padding-bottom: 20px;
+}
+.h{
+	color: #858280;
+	padding-left: 165px;
+	padding-bottom: 20px;
+	font-size: 90%;
+	
+	letter-spacing: 1px;
+}
+.who{
+	padding-left: 25px;
+	padding-right: 20px;
+	
+}
+.wha{
+	padding-left: 57px;
+padding-right: 20px;
+}
+.way p{
+	padding-bottom: 15px;
+}
+.as{
+	padding-left: 90px;
+	padding-bottom: 20px;
+}
+.max{
+	padding-right: 20px;
+}
+p input{
+	margin-right: 10px;
+	margin-left: 5px;
+}
+.bss{
+	width: 190px;
+	height: 120px;
+	vertical-align: top;
+	color: #CCCCCC;
+	letter-spacing: 1px;
+}
+.ger{
+	padding-left: 59px;
+}
+.she{
+	padding-right:20px;
+}
+.button{
+	width: 400px;
+	height: 50px;
+	background: #3355D0;
+	border-radius: 12px;
+	margin-left: 20px;
+	margin-top: 20px;
+	color: #FFFFFF;
+}
+.weak{
+float: right;
+	
+}
+.ggle,
+.bette,
+.rum,
+.weak{
+	box-shadow: 1px 1px 1px #888888;
+	}
+.wrap{
+	float: left;
+}
+.way input{
+	color: #ccc;
+	width: 150px;
+	height: 19px;
+}
