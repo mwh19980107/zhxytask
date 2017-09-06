@@ -4,12 +4,12 @@ var foo = document.getElementById("foo");
 var tube1 = document.getElementById("tube");
 var tubea1 = document.getElementById("tubea");
 
-qua.onchange = function() {
+qua.oninput = function() {
 	var popel = parseInt(document.getElementById("qua").value);
 
 	if(isNaN(popel) || popel < 4 || popel > 18) {
 		alert("请输入正确的玩家数量");
-	} else if(popel >= 5 && popel <= 9) {
+	} else if(popel >= 4 && popel <= 9) {
 		killer.innerHTML = 2;
 		populace.innerHTML = popel - killer.innerHTML;
 	} else if(popel >= 10 && popel <= 15) {
