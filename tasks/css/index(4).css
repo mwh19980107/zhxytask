@@ -22,16 +22,25 @@
 #add {
 	width: 10rem;
 	height: 10rem;
-	margin-top: 80px;
+	margin-top: 70px;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 20px;
 	border: 5px solid #FFFFFF;
 	
 }
+#shent{
+	margin-top: 20px;
+	margin-bottom: 30px;
+	display: none;
+	}
+.henart:hover #shent{
+	display: block;
+}
 .henart{
 	width: 33%;
 	float: left;
+	height: 235px;
 }
 #main{
 	width: 90%;

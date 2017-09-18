@@ -1,10 +1,10 @@
 //var killer =document.getElementById("killer");
 //var populace =document.getElementById("populace");
+//var tube1 = document.getElementById("tube");
+//var tubea1 = document.getElementById("tubea");
 var foo = document.getElementById("foo");
-var tube1 = document.getElementById("tube");
-var tubea1 = document.getElementById("tubea");
 var qua=document.getElementById("qua");
-qua.oninput = function() {
+qua.onchange = function() {
 	var popel = parseInt(document.getElementById("qua").value);
 
 	if(isNaN(popel) || popel < 4 || popel > 18) {
@@ -23,15 +23,15 @@ qua.oninput = function() {
 
 var upset = [];
 foo.onclick = function() {
-	var tube = tube1.value;
-	var tubea = tubea1.value;
-	if(tube == "" && tubea == "") {
-		confirm("请输入词组");
-	} else if(tube == tubea) {
-		confirm("水民和幽灵不可以相同哦");
-	} else {
+//	var tube = tube1.value;
+//	var tubea = tubea1.value;
+//	if(tube == "" && tubea == "") {
+//		confirm("请输入词组");
+//	} else if(tube == tubea) {
+//		confirm("水民和幽灵不可以相同哦");
+//	} else {
 		window.location.href = "index(3).html"
-	}
+//	}
 
 	for(var i = 0; i < killer.innerHTML; i++) {
 		upset.push('幽灵')
