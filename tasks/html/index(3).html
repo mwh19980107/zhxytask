@@ -1,27 +1,88 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<title>翻牌</title>
-		<link rel="stylesheet" type="text/css" href="../css/index(2).css"/>
-		<link rel="stylesheet" type="text/css" href='../css/bootstrap-3.3.7-dist/css/bootstrap.min.css'/>
+		<link rel="stylesheet" type="text/css" href="../css/index(2).css" />
+		<link rel="stylesheet" type="text/css" href='../css/bootstrap-3.3.7-dist/css/bootstrap.min.css' />
 	</head>
+
 	<body>
 		<div class="wrap">
 			<div class="header">
-		<a href="index(2).html"><span class=" pull-left"><img src="../img/fanhui.png"/></span></a>
-			<span>查看身份</span>
-			<span class=" pull-right"><img src="../img/xxin.png"/></span>
+				<a href="index(2).html"><span class=" pull-left"><img src="../img/fanhui.png"/></span></a>
+				<span>查看身份</span>
+				<span class=" pull-right"><img src="../img/xxin.png"/></span>
 			</div>
-		<div class="container main center-block">
-				<p class="text-center one">1</p>
-				
-					<img src="../img/fanpai-3.png " class="draw img-responsive"/>
-				
+			<div id="tesx" class="container main center-block">
+				<p id="box" class="text-center one">1</p>
+
+				<img id="image" src="../img/fanpai-3.png " class="draw img-responsive" />
+				<p id="oteste" class="text-center"></p>
+			</div>
+			<div class="footer">
+				<input type="button" id="switt" value="查看1号身份">
+			</div>
 		</div>
-		<div class="footer">
-			<a href="index(4).html"><input type="button" id="" value="查看1号身份" ></a>
-		</div>
-		</div>
+
+		<script type="text/javascript">
+			if(!window.localStorage) {
+				alert("浏览器不支持localstorage");
+			} else {
+				var upsets = localStorage.getItem("upset").split(",");
+			}
+			var kids = document.getElementById("kid");
+			var imagen = document.getElementById("image");
+			var switta = document.getElementById("seitt")
+			var box = document.getElementById("box");
+			var otest = document.getElementById("tesx");
+			var oteste = document.getElementById("oteste");
+			var flag = true;
+			var i = 1;
+
+			var add = false;
+
+			switt.onclick = function() {
+				if(add) {
+					window.location.href = 'index(4).html';
+				} else {
+					tion();
+				}
+				function tion(){
+				flag = !flag;
+				swit();
+				if(flag) {
+					box.innerHTML = i;
+					switt.value = "查看" + i + "号身份";
+					oteste.style.display = "none";
+
+				} else {
+					oteste.style.display = "block";
+					switt.value = '隱藏并传递给' + (i + 1) + '号';
+					oteste.innerHTML = upsets[i - 1];
+					i++;
+					
+				}
+				if(i== upsets.length+1) {
+					switt.value = "法官日记";
+					add = true;
+				}
+console.log(i)
+			}
+			function swit() {
+				if(!flag) {
+					imagen.style.marginTop = 50 + "px";
+					imagen.src = "../img/fan-2.png";
+				} else {
+					imagen.src = "../img/fanpai-3.png ";
+					imagen.style.marginTop = 300 + "px";
+				}
+
+			}
+			
+			}
+		</script>
 	</body>
+
 </html>

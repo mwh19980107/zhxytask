@@ -1,75 +1,66 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 }
-.wrap{
+
+.wrap {
 	background: #29bde0;
+
 }
-.header{
+
+.header {
 	color: #FFFFFF;
 	font-size: 3.4rem;
 	text-align: center;
 	border-bottom: 1px solid #FFFFFF;
-padding-left: 15px;
-padding-right: 15px;
-padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
 	height: 80px;
 }
-.main{
-	margin-top: 80px;
-	background: #ffedc5;
-font-size: 20px;
-border: 5px solid #FFFFFF;
-padding: 0!important;
-}
-.one{
-	border: 3px solid #ffedc5;
-	width: 50px;
-	height: 50px;
-	background:  #FFFFFF;
-	border-radius: 30px ;
-	margin-top: -27px;
-	margin-left: 47%;
-	padding-top: 5px;
-	color: #f56b81;
-}
 
-.main .draw{
-	margin: auto;
-	margin-top: 20px;
-	margin-bottom: 50px;
+#add {
+	width: 10rem;
+	height: 10rem;
+	margin-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	border: 5px solid #FFFFFF;
+	
 }
-.role,
-.group{
-font-size: 40px;
+.henart{
+	width: 33%;
+	float: left;
+}
+#main{
+	width: 90%;
+	margin: auto;
 text-align: center;
 }
-.role{
-	color: #29bde0;
+#aas{
+	background: #f4d085;
+	height: 75%;
+	margin: 0;
+	padding-top: 20px;
 }
-.group{
-	color:  #f9a39c;
-	border-bottom: 1px solid #FFFFFF;
-	padding-bottom: 30px;
-}
-.means{
-	color: #fdc06a;
-	font-size: 26px;
-	margin-top: 30px;
-	margin-bottom: 150px;
-	text-align: center;
-}
-.footer{
+#stng {
+	background:#83b09a;
+	color:  #FFFFFF;
+	}
+
+.footer {
 	width: 90%;
 	margin: auto;
 }
-.footer input{
+
+.footer input {
 	width: 100%;
 	height: 86px;
 	margin-top: 150px;
-    margin-bottom: 100px;
-    font-size: 48px;
-    color: #FFFFFF;
+	margin-bottom: 100px;
+	font-size: 48px;
+	color: #FFFFFF;
 	background: #fbb435;
 	outline: none;
 	border: none;

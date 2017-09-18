@@ -3,24 +3,109 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style type="text/css">
-.box{
-background-color: #cccc00;
-float: left;
-margin:1.65%;
-padding: 15%;
-border-radius:5%;
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  display: block;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.square {
+  display: block;
+  float: left;
+  position: relative;
+  width: 30%;
+  height: 30%;
+  background: orange;
+  margin: 1%;
+  padding: 0.5%;
+  border-radius: 10px;
+}
+
+.btn {
+  padding: 10px 0;
+  margin: 20px auto;
+  display: block;
+  width: 95%;
+  background-color: #fff;
+  border: 1px solid rgb(212, 190, 46);
+  border-radius: 6px;
+  outline: 0;
+}
+
+#btn1:hover,
+#btn2:hover {
+  background: rgb(212, 190, 46);
 }
 </style>
 </head>
 <body >
-<div class="box" ></div>
-<div class="box" ></div>
-<div class="box" ></div>
-<div class="box" ></div>
-<div class="box" ></div>
-<div class="box" ></div>
-<div class="box" ></div>
-<div class="box" ></div>
-<div class="box" ></div>
+ <div class="container">
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <button class="btn" id="btn1">开始闪</button>
+    <button class="btn" id="btn2">结束闪</button>
+    
+    <script type="text/javascript">
+    	function rnd (n, m) {
+  var random = Math.floor(Math.random()*(m-n+1)+n);
+  return random;
+}
+
+function diff_rnd () {
+  var r1 = null;
+  var r2 = null;
+  var r3 = null;
+  var arr = [];
+  while (r1===r2 || r1===r3 || r2===r3) {
+    r1 = rnd(0, 8);
+    r2 = rnd(0, 8);
+    r3 = rnd(0, 8);
+  }
+  arr = [r1, r2, r3];
+  return arr;
+}
+
+window.onload = function () {
+  var aItem = document.getElementsByClassName('square');
+  var aColor = ['CadetBlue', 'Aquamarine', 'Coral', 'Cornsilk', 'Cyan','GreenYellow', 'SeaGreen', 'Tomato', 'Sienna'];
+  var btn1 = document.getElementById('btn1');
+  var btn2 = document.getElementById('btn2');
+  var timer = null;
+
+  btn1.onclick = function () {
+    clearInterval(timer);
+    timer = setInterval(function () {
+      var arr = diff_rnd();
+      for (var i = 0; i < aItem.length; i++) {
+        aItem[i].style.background = 'orange'
+      }
+      for (var i = 0; i < 3; i++) {
+        aItem[arr[i]].style.background = aColor[arr[i]];
+      }
+    }, 800);
+  }
+
+  btn2.onclick = function () {
+    for (var i = 0; i < aItem.length; i++) {
+      aItem[i].style.background = 'orange'
+    }
+    clearInterval(timer);
+  }
+}
+    </script>
 </body>
 </html>

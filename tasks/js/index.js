@@ -3,7 +3,7 @@
 var foo = document.getElementById("foo");
 var tube1 = document.getElementById("tube");
 var tubea1 = document.getElementById("tubea");
-
+var qua=document.getElementById("qua");
 qua.oninput = function() {
 	var popel = parseInt(document.getElementById("qua").value);
 
@@ -21,6 +21,7 @@ qua.oninput = function() {
 	}
 }
 
+var upset = [];
 foo.onclick = function() {
 	var tube = tube1.value;
 	var tubea = tubea1.value;
@@ -30,5 +31,22 @@ foo.onclick = function() {
 		confirm("水民和幽灵不可以相同哦");
 	} else {
 		window.location.href = "index(3).html"
+	}
+
+	for(var i = 0; i < killer.innerHTML; i++) {
+		upset.push('幽灵')
+	}
+	for(var i = 0; i < populace.innerHTML; i++) {
+		upset.push("水民")
+	}
+	upset.sort(function() {
+		return 0.5 - Math.random();//数组乱序
+	});
+//	console.log(upset);
+	if(!window.localStorage) {
+		alert("浏览器不支持localstorage");
+	} else {
+		localStorage.setItem("upset", upset);
+
 	}
 }

@@ -20,6 +20,8 @@ padding-top: 15px;
 	background: #ffedc5;
 font-size: 20px;
 border: 5px solid #FFFFFF;
+padding-bottom: 400px;
+height: 900px;
 }
 .one{
 	border: 3px solid #ffedc5;
@@ -35,8 +37,14 @@ border: 5px solid #FFFFFF;
 
 .main .draw{
 	margin: auto;
-	margin-top: 200px;
-	margin-bottom: 400px;
+	margin-top: 300px;
+	
+}
+#kid{
+	margin-top: 20px;
+	color: #47c4e4;
+	font-size: 40px;
+	
 }
 .footer{
 	width: 90%;
@@ -52,4 +60,10 @@ border: 5px solid #FFFFFF;
 	background: #fbb435;
 	outline: none;
 	border: none;
+}
+#oteste{
+	display: none;
+	font-size: 40px;
+	color: #46c4e5;
+	margin-top: 20px;
 }

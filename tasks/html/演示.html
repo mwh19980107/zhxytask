@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="../css/演示.css"/>
-		<link rel="stylesheet" type="text/css" href="../css/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/演示.css" />
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
 		<title></title>
 	</head>
+
 	<body>
 		<input type="submit" name="submit" onclick="open()">
 
-<script language=javascript> fuction open(){
+		<script type="text/javascript">
+			function open() {
 
-if(!document.form_name.username.value) {
+				if(!document.form_name.username.value) {
 
-alert("请输入用户名！"); document.form_name.username.focus(); return false;
+					alert("请输入用户名！");
+					document.form_name.username.focus();
+					return false;
 
-}else document.form_name.action="aaa.htm";
+				} else document.form_name.action = "aaa.htm";
 
-} </script>
+			}
+		</script>
 	</body>
+
 </html>
