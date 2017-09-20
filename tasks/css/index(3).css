@@ -63,6 +63,13 @@ width: 98%;
 	border: none;
 	outline: none;
 }
+#killer,
+#populace{
+	width: 22px;
+	border: none;
+	outline: none;
+	text-align: center;
+}
 .quantity{
 	width: 98%;
 	margin: auto;
