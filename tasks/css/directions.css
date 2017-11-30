@@ -1,8 +1,7 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 }
-
 
 .wrap {
 	background: #F0F0F0;
@@ -41,8 +40,10 @@
 	border-radius: 3px;
 	background: #FFFFFF;
 	margin-top: 20px;
-	padding-bottom: 50px;
+	padding-bottom: 200px;
 	position: relative;
+	padding-left: 15%;
+	padding-top: 30px;
 }
 
 #trang {
@@ -56,7 +57,7 @@
 	top: -30px;
 }
 
-#henart p {
+.step {
 	background: #29bde0;
 	width: 70%;
 	font-size: 20px;
@@ -68,46 +69,40 @@
 	margin-bottom: 30px !important;
 }
 
-.treng {
+.box {
+	font-size: 0;
+	position: relative;
+	border-left: 2px solid #d7d7d7;
+	padding-left: 55px;
+}
+
+.box img {
+	position: absolute;
+	left: -27px;
+	background: #FFFFFF;
+}
+
+.ms {
+	display: inline-block;
+}
+
+.triangle {
 	width: 0;
 	height: 0;
 	border-top: 20px solid transparent;
 	border-right: 30px solid #29bde0;
 	border-bottom: 20px solid transparent;
-	position: relative;
-	left: 180px;
-	top: 43px;
+	margin-right: -1px;
+	margin-top: -5px;
+	vertical-align: middle;
 }
-
-.moon,
-.sun {
-	width: 50px;
-	position: relative;
-	left: 88px;
-	top: 88px;
+#hidden{
+	display: none;
 }
-
-.origin {
-	height: 118px;
-	border-left: 2px solid #d2d2d2;
-	position: absolute;
-	left: 112px;
-	top: 138px;
-}
-
-.origins {
-	height: 240px;
-	border-left: 2px solid #d2d2d2;
-	position: absolute;
-	left: 112px;
-	top: 305px;
-}
-
 .footer {
 	width: 100%;
 	background: #8dd9f5;
 	text-align: center;
-	
 	position: fixed;
 	bottom: 0;
 }
@@ -123,6 +118,7 @@
 	border-radius: 4px;
 	margin-top: 30px;
 	margin-bottom: 30px;
+	outline: none;
 }
 
 #finish {

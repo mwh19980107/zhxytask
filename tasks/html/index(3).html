@@ -40,9 +40,7 @@
 			var oteste = document.getElementById("oteste");
 			var flag = true;
 			var i = 1;
-
 			var add = false;
-
 			switt.onclick = function() {
 				if(add) {
 					window.location.href = 'index(4).html';
@@ -56,13 +54,11 @@
 					box.innerHTML = i;
 					switt.value = "查看" + i + "号身份";
 					oteste.style.display = "none";
-
 				} else {
 					oteste.style.display = "block";
 					switt.value = '隱藏并传递给' + (i + 1) + '号';
 					oteste.innerHTML = upsets[i - 1];
 					i++;
-					
 				}
 				if(i== upsets.length+1) {
 					switt.value = "法官日记";

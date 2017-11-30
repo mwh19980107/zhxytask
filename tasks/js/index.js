@@ -3,14 +3,11 @@
 
 var foo = document.getElementById("foo");
 var qua=document.getElementById("qua");
-
-
-
 qua.onchange = function() {
 	var popel = parseInt(document.getElementById("qua").value);
 //	var killer =ParseInt(document.getElementById("killer").value);
 //	var populace =parseInt(document.getElementById("populace").value);
-    
+
 	if(isNaN(popel) || popel < 4 || popel > 18) {
 		alert("请输入正确的玩家数量");
 		document.getElementById("killer").value="";

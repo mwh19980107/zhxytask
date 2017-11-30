@@ -1,0 +1,322 @@
+<html lang="en">
+
+	<head>
+
+		<meta charset="UTF-8">
+		<title>护工简介</title>
+
+		<style>
+			html {
+				font-size: 62.5%;
+			}
+			
+			body {
+				margin: 0;
+			}
+			
+			.header {
+				margin: 0;
+				width: 100%;
+				height: 4.3rem;
+				position: fixed;
+				top: 0;
+				left: 0;
+				right: 0;
+				background-color: #5fc0cd;
+			}
+			
+			.back {
+				margin-left: 1.5rem;
+				background: url(../img/12.png) no-repeat 0 center;
+				background-size: 1rem 1.75rem;
+				height: 4.3rem;
+				width: 1rem;
+				float: left;
+			}
+			
+			.header-p {
+				font-size: 3.6rem;
+				color: #fff;
+				margin: 0;
+				line-height: 4.3rem;
+				text-align: center;
+			}
+			
+			.pictures {
+				position: absolute;
+				top: 4.3rem;
+				left: 0;
+				right: 0;
+				width: 100%;
+				height: 16.9rem;
+				background-image: url(../img/ps.png);
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: cover;
+			}
+			
+			.portrait {
+				background: url(../img/233/矢量智能对象.png) no-repeat 0 center;
+				background-size: 8.5rem 8.5rem;
+				height: 16.4rem;
+				width: 8.5rem;
+				margin-left: 2rem;
+			}
+			
+			.name {
+				position: absolute;
+				top: 3.3rem;
+				left: 12rem;
+				font-size: 1.8rem;
+				color: #fff;
+			}
+			
+			.age {
+				position: absolute;
+				top: 4rem;
+				left: 19rem;
+				font-size: 1.5rem;
+				color: #fff;
+			}
+			
+			.site {
+				position: absolute;
+				top: 7rem;
+				left: 14rem;
+				font-size: 1.2rem;
+				color: #fff;
+			}
+			
+			.site-picturte {
+				background: url(../img/Shape4.png) no-repeat center center;
+				background-size: cover;
+				height: 1.2rem;
+				width: 1.0rem;
+				position: absolute;
+				top: 8.5rem;
+				left: 12.5rem;
+			}
+			
+			.main {
+				position: absolute;
+				top: 21.2rem;
+				left: 0;
+				right: 0;
+				padding: 0;
+				overflow: auto;
+			}
+			
+			.ability {
+				background: url(../img/圆角矩形7拷贝2.png) no-repeat;
+				background-size: 0.3rem 1.9rem;
+				padding-left: 1rem;
+				margin: 0 0 0 1rem;
+				font-size: 1.2rem;
+				border-bottom: solid 0.1rem #e1e5e7;
+			}
+			
+			.star_1 {
+				background-size: 1.2rem 1.2rem;
+				padding-left: 1.5rem;
+				margin-left: 2rem;
+				font-size: 1.2rem;
+				height: 4.6rem;
+			}
+			
+			.home {
+				line-height: 4.6rem;
+				margin: 0;
+				float: left;
+			}
+			
+			.star_2 {
+				
+				background-size: 1.2rem 1.2rem;
+				padding-left: 1.5rem;
+				margin-left: 2rem;
+				font-size: 1.2rem;
+				height: 4.6rem;
+				float: left;
+			}
+			
+			.eat {
+				float: left;
+				line-height: 4.6rem;
+				margin: 0;
+			}
+			
+			.clear {
+				clear: both;
+			}
+			
+			.year {
+				margin: 0;
+				border-top: solid 0.1rem #e1e5e7;
+				;
+				height: 4.6rem;
+				background: url(images/g.png) no-repeat 8rem center;
+				background-size: 0.2rem 2.3rem;
+				margin-left: 1rem;
+			}
+			
+			.year_1 {
+				font-size: 1.6rem;
+				color: #999999;
+				line-height: 4.6rem;
+				margin: 0;
+				float: left;
+			}
+			
+			.year_2 {
+				font-size: 1.6rem;
+				line-height: 4.6rem;
+				margin: 0 0 0 10rem;
+			}
+			
+			.aa {
+				font-size: 1.6rem;
+				margin: 0 0 0 10rem;
+				line-height: 4.6rem;
+			}
+			
+			.year_a {
+				margin: 0;
+				border-top: solid 0.1rem #e1e5e7;
+				border-bottom: solid 0.1rem #e1e5e7;
+				background: url(images/g.png) no-repeat 8rem center;
+				background-size: 0.2rem 2.3rem;
+				margin-left: 1rem;
+				min-height: 4.6rem;
+			}
+			
+			.footer {
+				position: fixed;
+				bottom: 0;
+				left: 0;
+				right: 0;
+			}
+			
+			.message {
+				float: left;
+				width: 46%;
+				height: 5rem;
+				border-radius: 0.6rem;
+				border: solid #5fc0cd 0.2rem;
+				margin: 0.8rem 0 0.8rem 0.8rem;
+				font-size: 1.6rem;
+				color: #5fc0cd;
+				margin-right: 0.5rem;
+			}
+			
+			.speak {
+				margin: 0 auto;
+				line-height: 4rem;
+				background: #FFFFFF;
+			}
+			
+			.tel,
+			.tele
+			 {
+				float: left;
+				width: 46%;
+				height: 5rem;
+				border-radius: 0.6rem;
+				border: solid #5fc0cd 0.2rem;
+				
+				margin: 0.8rem 0.8rem 0.8rem 0;
+				margin-right: 0.5rem;
+				font-size: 1.6rem;
+				color: #fff;
+			}
+			.tel{
+				background-color: #5fc0cd;
+				margin-left: 45px;
+			}
+			.tele{
+				background-color: #FFFFFF;
+				color: #5FC0CD;
+			}
+			.phone {
+				margin: 0 auto;
+				line-height: 4rem;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div class="header">
+
+			<div class="back"></div>
+
+			<p class="header-p">个人主页</p>
+		</div>
+
+		<div class="pictures">
+
+			<div class="portrait"></div>
+
+			<p class="name">高素雅</p>
+
+			<p class="age">51岁</p>
+
+			<div class="site-picturte"></div>
+
+			<p class="site">北京.通州.果园</p>
+		</div>
+
+		<div class="main">
+
+			<div class="ability">
+
+				<p>专业技能</p>
+			</div>
+
+			<div class="star_1">
+
+				<p class="home"><img src="../img/形状4拷贝4.png"/>住家</p>
+
+				<div class="star_2">
+
+					<p class="eat"><img src="../img/形状4拷贝4.png"/>不含餐</p>
+				</div>
+			</div>
+
+			<div class="clear"></div>
+
+			<div class="year">
+
+				<p class="year_1">从业年限</p>
+
+				<p class="year_2">0~3年</p>
+			</div>
+
+			<div class="clear"></div>
+
+			<div class="year">
+
+				<p class="year_1">工作时间</p>
+
+				<p class="year_2">
+					<font color="red">25元/小时</font>
+				</p>
+			</div>
+
+			<div class="clear"></div>
+
+			<div class="year_a">
+
+				<p class="year_1">自我介绍</p>
+
+				<p class="aa">可以洗衣、做饭、照顾老人、在护工方面有5年的经验，经验丰富可以洗衣、做饭、照顾老人、在护工方面有5年的经验，经验丰富。</p>
+			</div>
+		</div>
+
+		<div class="footer">
+			<input type="button" class="tele" value="留言" />
+ 		</button> <button class="tel">
+ 		<p class="phone">电话联系</p>
+ 	</button> </div>
+	</body>
+
+</html>
